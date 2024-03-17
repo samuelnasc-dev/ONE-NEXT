@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --font-primaria: 'Inter', sans-serif;
+    --font-weight: 400;
+
+    --cor-primaria: #F3F5FC;
+    --cor-secudaria: #0A3871;
+    --cor-terciaria: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-weight: var(--font-weight);
+}
+
+.logoAlura {
+    margin: 5.21% 5.21% 0 5.21%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 100vw;
+}
+
+.pagina__input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 12% 0 5.21% 0;
+}
+
+.pagina__input__textArea {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-weight: var(--font-weight);
+    font-size: 2rem;
+    /* border-color: Transparent; */
+    border-color: var(--cor-primaria);
+    border-style: none;
+    height: 35vh;
+    width: 25vw;
+}
+
+.pagina__input__messeger {
+    display: flex;
+    gap: 8px;
+}
+
+.pagina__input__messeger__notice {
+    font-family: var(--font-primaria);
+    font-size: 12px;
+    font-weight: var(--font-weight);
+    color: var(--cor-secudaria);
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+

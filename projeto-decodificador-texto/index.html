@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./assets/Frame 6.png" alt="Logo da Alura">
+    </header>
+    <main class="pagina">
+        <section class="pagina__input">
+                <textarea class="pagina__input__textArea" id="" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+                <div class="pagina__input__messeger">
+                    <img src="./assets/bi_exclamation-circle-fill.png" alt="Ícone com um ponto de excalamação">
+                    <p class="pagina__input__messeger__notice">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="pagina__input__buttons">
+                    <button onclick="codificarTexto()" class="pagina__input__button__criptografar">Criptografar</button>
+                    <button onclick="decodificarTexto()" class="pagina__input__button__descriptografar">Descriptografar</button>
+                </div>
+        </section>
+        <section class="pagina__output">
+            <textarea class="pagina__output__textArea" id="" cols="20" rows="10"></textarea>
+            <button class="pagina__output__copyButton" onclick="copiarTexto()" id="buttonCopiar">Copiar</button>
+            <div class="pagina__output__messeger">
+                <img class="pagina__output__messeger_img" src="./assets/High quality products 1 1.png" alt="Uma pessoa sentada segurando uma lupa na posição do olho">
+                <h2 class="pagina__output__messeger_resultado">Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Samuel Nascimento</footer>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
