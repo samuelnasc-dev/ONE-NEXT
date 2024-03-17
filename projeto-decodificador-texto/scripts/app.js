@@ -49,7 +49,7 @@ function limpar(nomeClass){
 }
 
 function limparCopyButton(){
-    let botaoEscondido = document.querySelector('.pagina__conteudo__copiar__copyButton');
+    let botaoEscondido = document.querySelector('.pagina__output__copyButton');
     botaoEscondido.style.display = "none"; // Mostrar o botão escondido
 }
 

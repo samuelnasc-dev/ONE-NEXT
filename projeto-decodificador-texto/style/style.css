@@ -66,6 +66,88 @@ main {
     text-align: left;
 }
 
+.pagina__input__messeger__img {
+    width: 16px;
+    height: 16px;
+}
+
+.pagina__input__buttons {
+    display: flex;
+    gap: 24px;
+    width: 50vw;
+}
+
+.pagina__input__button__criptografar {
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background: var(--cor-secudaria);
+    color: var(--cor-terciaria);
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: var(--font-weight);
+    padding: 24px 0;
+}
+
+.pagina__input__button__descriptografar {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--cor-secudaria);
+    color: var(--cor-secudaria);
+    background: var(--cor-primaria);
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: var(--font-weight);
+    padding: 24px 0;
+}
+
+.pagina__output {
+    border-radius: 32px;
+    margin: 3% 0 0 0 ;
+    height: 88%;
+    width: 30%;
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.pagina__output__messeger__img {
+    padding: 0 32px 32px 32px;
+    width: 100%;
+}
+
+.pagina__output__messeger__resultado {
+    font-family: var(--font-primaria);
+    color: #343A40;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0rem;
+    text-align: center;
+    padding: 0px 28px 16px 28px;
+}
+
+/* .pagina__output__messeger__subtitle {
+    font-family: var(--font-primaria);
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 28px 0 28px;
+} */
+
+
+
 
 
 
